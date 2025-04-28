@@ -8,6 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoMdPricetags } from "react-icons/io";
 import { MdShoppingCart } from "react-icons/md";
 import './Navbar.css'
+import './Near.css';
 
 
 const Near = () => {
@@ -17,7 +18,7 @@ const Near = () => {
         <div className='container'>
           <div className='row '>
             <h5>Popular Near You</h5>
-            <div className='col-md-3 col-3 my-2'>
+            <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2'>
               <div>
                 <div className="card cards " >
                   <div className=" py-5 position-relative">
@@ -60,7 +61,7 @@ const Near = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-3 col-3 my-2'>
+            <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2'>
               <div>
                 <div className="card cards" >
                   <div className=" py-5 position-relative">
@@ -103,7 +104,7 @@ const Near = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-3 col-3 my-2'>
+            <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2'>
               <div>
                 <div className="card cards" >
                   <div className=" py-5 position-relative">
@@ -146,7 +147,7 @@ const Near = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-3 col-3 my-2'>
+            <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2'>
               <div>
                 <div className="card cards" >
                   <div className=" py-5 position-relative">
@@ -189,7 +190,7 @@ const Near = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-3 col-3 my-2'>
+            <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2'>
               <div>
                 <div className="card cards" >
                   <div className=" py-5 position-relative">
@@ -232,7 +233,7 @@ const Near = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-3 col-3 my-2'>
+            <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2'>
               <div>
                 <div className="card cards" >
                   <div className=" py-5 position-relative">
@@ -275,7 +276,7 @@ const Near = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-3 col-3 my-2'>
+            <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2'>
               <div>
                 <div className="card cards" >
                   <div className=" py-5 position-relative">
@@ -318,7 +319,7 @@ const Near = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-3 col-3 my-2'>
+            <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2'>
               <div>
                 <div className="card cards" >
                   <div className=" py-5 position-relative">
