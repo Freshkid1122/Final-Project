@@ -59,13 +59,15 @@ const Get = () => {
 
             </div>
             {/* Rider Card */}
-            <div className="card p-3 bg-success-subtle my-4" style={{ width: "22rem" }}>
-                <div className="d-flex align-items-center">
-                    <img src={ride} alt="Rider" className="rounded-circle me-3" width="70" height="70" style={{ borderRadius: "50%", border: "2px solid #006400", backgroundColor: "#006400" }} />
-                    <div>
-                        <h5 className="fw-bold mb-1">Sign Up as a Rider</h5>
-                        <p className="mb-2">Earn Money on Your Own Schedule!</p>
-                        <button className="btn btn-success">Get Started</button>
+            <div className="pb-5">
+                <div className="card p-3 bg-success-subtle  my-4" style={{ width: "22rem" }}>
+                    <div className="d-flex align-items-center">
+                        <img src={ride} alt="Rider" className="rounded-circle me-3" width="70" height="70" style={{ borderRadius: "50%", border: "2px solid #006400", backgroundColor: "#006400" }} />
+                        <div>
+                            <h5 className="fw-bold mb-1">Sign Up as a Rider</h5>
+                            <p className="mb-2">Earn Money on Your Own Schedule!</p>
+                            <button className="btn btn-success">Get Started</button>
+                        </div>
                     </div>
                 </div>
             </div>
