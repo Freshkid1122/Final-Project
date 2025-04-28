@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 
 import Landingpage from "../pages/Landingpage"
+import Get from "../pages/Get"
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <>
       <Routes> 
         <Route path="/" element={<Landingpage />} />
-
+        <Route path="/Get" element={<Get />} />
       </Routes>
     </>
   )

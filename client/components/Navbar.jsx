@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -32,8 +33,8 @@ const Navbar = () => {
               </ul>
             </div>
             <div className="d-flex gap-3 mt-3">
-                <button className="btn btn-success">Get Started</button>
-                <button className="btn btn-outline-light">Get Started</button>
+               <Link to="/Get"> <button className="btn btn-success">Get Started</button></Link>
+               <Link to="/Get"> <button className="btn btn-outline-light">Get Started</button> </Link>
               </div>
           </div>
         </nav>
@@ -49,8 +50,8 @@ const Navbar = () => {
                 Restaurants & riders, sign up and start earning today.
               </p>
               <div className="d-flex gap-3 mt-3">
-                <button className="btn btn-success">Get Started</button>
-                <button className="btn btn-outline-light">Get Started</button>
+               <Link to="/Get"> <button className="btn btn-success">Get Started</button> </Link>
+               <Link to="/Get"> <button className="btn btn-outline-light">Get Started</button> </Link>
               </div>
             </div>
           </div>
